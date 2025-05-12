@@ -7,6 +7,10 @@ p{
     text-align: justify;
     text-indent: 20px;
 }
+a{
+    color: #96078a;
+    text-decoration:none;
+}
 
 body{
     background-color: #dddddd;
@@ -133,6 +137,7 @@ header#cabecalho-artigo h1{
     font-size: 20pt;
     color: #606060;
     margin-bottom: 0px;
+
 }
 header#cabecalho-artigo h2{
     font-size: 13pt;
@@ -148,15 +153,31 @@ header#cabecalho-artigo h3{
 }
 
 
-
 aside#lateral{
     display: block;
-    width: 400px;
+    width: 375px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(157, 64, 139, 0.6);
+}
+aside#lateral h1{
+    font-family: 'Fonte-Logo', sans-serif;
+    font-size: 20pt;
+    color: #a422a0;
+    
+}
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+
 }
 footer#rodape{
     clear: both;
-    border-top: 1px solid #606060;
+    border-top: 1px solid #851471;
 }
 
 footer#rodape p{
